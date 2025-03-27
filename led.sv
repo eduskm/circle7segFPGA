@@ -6,7 +6,6 @@ module led #(
 	input clk_i,
 	input rst_ni,
 	input overflow_i, // 0 - stanga->dreapta / 1 - dreapta->stanga 
-	output reg [NUM_OF_DISPLAYS - 1:0] column,
 	output reg row, // 1 sus sau 0 jos
 	output reg directie,
 	output reg [COL_WIDTH - 1: 0] curr_display

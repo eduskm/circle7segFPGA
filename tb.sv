@@ -9,9 +9,7 @@ reg rst_n;
 reg sens;
 wire [WIDTH - 1:0] count;
 wire ovfl;
-wire [num_leds - 1 : 0] leds;
 wire row;
-wire [5:0] column;
 wire directie;
 wire [2:0] curr_display;
 wire [5 : 0] [7 : 0] seg7;
@@ -51,7 +49,6 @@ led_inst
 	.overflow_i(ovfl),
 	.directie(directie),
 	.row(row),
-	.column(column),
 	.curr_display(curr_display)
 );
 
