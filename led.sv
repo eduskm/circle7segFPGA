@@ -5,9 +5,9 @@ module led #(
 (
 	input clk_i,
 	input rst_ni,
-	input overflow_i, // 0 - stanga->dreapta / 1 - dreapta->stanga 
+	input overflow_i,  
 	output reg row, // 1 sus sau 0 jos
-	output reg directie,
+	output reg directie, // 0 - stanga la dreapta / 1 - dreapta la stanga
 	output reg [COL_WIDTH - 1: 0] curr_display
 );
 

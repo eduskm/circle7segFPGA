@@ -14,7 +14,7 @@ assign col_en = 1 << col;
 
 genvar i;
 generate
-    for(i=0; i <DISPLAY_COUNT;i=i+1) begin: seg7_for // pentru fiecare display instantiem un display
+    for (i = 0; i < DISPLAY_COUNT; i=i+1) begin: seg7_for // pentru fiecare display instantiem un display
         circle_on_seg circle_on_seg_inst (
             .row(row),
             .enable(col_en[i]),
