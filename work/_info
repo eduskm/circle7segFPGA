@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/edu/Desktop/skool/hdl/lab 2 27 feb
+vcounter
+!s110 1743077941
+!i10b 1
+!s100 2Mf]kCQd]MIU6T@;UJ0m31
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUY^^HQ:bEQkOZoSH=7lZM2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/skool/hdl/etapa 0
+w1743065316
+8D:/skool/hdl/etapa 0/counter.v
+FD:/skool/hdl/etapa 0/counter.v
+!i122 102
+L0 1 30
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1743077941.000000
+!s107 D:/skool/hdl/etapa 0/counter.v|
+!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/counter.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vled
+Z6 !s110 1743077942
+!i10b 1
+!s100 :ThIXdo<[iQmR[00j80763
+R0
+I_QLLPR4F96<j4@FP8CB^Q0
+R1
+R2
+w1743075869
+8D:/skool/hdl/etapa 0/led.v
+FD:/skool/hdl/etapa 0/led.v
+!i122 103
+L0 1 36
+R3
+r1
+!s85 0
+31
+Z7 !s108 1743077942.000000
+!s107 D:/skool/hdl/etapa 0/led.v|
+!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/led.v|
+!i113 1
+R4
+R5
+vtb
+R6
+!i10b 1
+!s100 4?0XEkChf`F9b@V:`Ln>70
+R0
+IPCBgNQ4GbzBNVoe>`ZJAg0
+R1
+R2
+w1743075982
+8D:/skool/hdl/etapa 0/tb.v
+FD:/skool/hdl/etapa 0/tb.v
+!i122 104
+L0 2 57
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/skool/hdl/etapa 0/tb.v|
+!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/tb.v|
+!i113 1
+R4
+R5
