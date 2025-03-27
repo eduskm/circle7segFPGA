@@ -14,7 +14,7 @@ wire row;
 wire [5:0] column;
 wire directie;
 wire [2:0] curr_display;
-wire [7 : 0] seg7 [6];
+wire [5 : 0] [7 : 0] seg7;
 	
 initial begin
 	clk = 1'b0;
