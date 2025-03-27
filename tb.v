@@ -14,6 +14,7 @@ wire row;
 wire [5:0] column;
 wire directie;
 wire [2:0] curr_display;
+wire [7 : 0] seg7 [6];
 	
 initial begin
 	clk = 1'b0;
@@ -54,5 +55,15 @@ led_inst
 	.curr_display(curr_display)
 );
 
+seg7_driver #(
+	.DISPLAY_COUNT(),
+	.COL_WIDTH()
+)
+seg7_instance
+(
+	.row(row),
+	.col(curr_display),
+	.seg7(seg7)
+);
 
 endmodule

@@ -9,72 +9,118 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/edu/Desktop/skool/hdl/lab 2 27 feb
+vcircle_on_seg
+Z0 !s110 1743087556
+!i10b 1
+!s100 1Omik0M`cM_Nl30cD>jlA1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZbd>R_jXI=SF9i5li7[K33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/edu/circle7segFPGA
+w1743086285
+8C:/Users/edu/circle7segFPGA/circle_on_seg.v
+FC:/Users/edu/circle7segFPGA/circle_on_seg.v
+!i122 144
+L0 1 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1743087556.000000
+!s107 C:/Users/edu/circle7segFPGA/circle_on_seg.v|
+!s90 -reportprogress|300|-work|work|C:/Users/edu/circle7segFPGA/circle_on_seg.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
 vcounter
-!s110 1743077941
+R0
 !i10b 1
 !s100 2Mf]kCQd]MIU6T@;UJ0m31
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IUY^^HQ:bEQkOZoSH=7lZM2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/skool/hdl/etapa 0
-w1743065316
-8D:/skool/hdl/etapa 0/counter.v
-FD:/skool/hdl/etapa 0/counter.v
-!i122 102
+R1
+Ia9RgXM4I_DQ7b;=lzjMIV2
+R2
+R3
+w1743078476
+8C:/Users/edu/circle7segFPGA/counter.v
+FC:/Users/edu/circle7segFPGA/counter.v
+!i122 145
 L0 1 30
-Z3 OV;L;2020.1;71
-r1
-!s85 0
-31
-!s108 1743077941.000000
-!s107 D:/skool/hdl/etapa 0/counter.v|
-!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/counter.v|
-!i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
-vled
-Z6 !s110 1743077942
-!i10b 1
-!s100 :ThIXdo<[iQmR[00j80763
-R0
-I_QLLPR4F96<j4@FP8CB^Q0
-R1
-R2
-w1743075869
-8D:/skool/hdl/etapa 0/led.v
-FD:/skool/hdl/etapa 0/led.v
-!i122 103
-L0 1 36
-R3
-r1
-!s85 0
-31
-Z7 !s108 1743077942.000000
-!s107 D:/skool/hdl/etapa 0/led.v|
-!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/led.v|
-!i113 1
 R4
+r1
+!s85 0
+31
 R5
-vtb
+!s107 C:/Users/edu/circle7segFPGA/counter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/edu/circle7segFPGA/counter.v|
+!i113 1
 R6
+R7
+vled
+Z8 !s110 1743087557
 !i10b 1
-!s100 4?0XEkChf`F9b@V:`Ln>70
-R0
-IPCBgNQ4GbzBNVoe>`ZJAg0
+!s100 RDDiQ11VPS^JkNn`:A?902
 R1
+IC=ES@PUiS6EhB`=JB6[Fg1
 R2
-w1743075982
-8D:/skool/hdl/etapa 0/tb.v
-FD:/skool/hdl/etapa 0/tb.v
-!i122 104
-L0 2 57
 R3
+w1743085663
+8C:/Users/edu/circle7segFPGA/led.v
+FC:/Users/edu/circle7segFPGA/led.v
+!i122 146
+L0 1 36
+R4
 r1
 !s85 0
 31
-R7
-!s107 D:/skool/hdl/etapa 0/tb.v|
-!s90 -reportprogress|300|-work|work|D:/skool/hdl/etapa 0/tb.v|
-!i113 1
-R4
 R5
+!s107 C:/Users/edu/circle7segFPGA/led.v|
+!s90 -reportprogress|300|-work|work|C:/Users/edu/circle7segFPGA/led.v|
+!i113 1
+R6
+R7
+vseg7_driver
+R8
+!i10b 1
+!s100 C6Z=Q3cE<3S8QHk15lb4l3
+R1
+If0SUzg?[LkF7aMQCU>]8R0
+R2
+R3
+w1743087551
+8C:/Users/edu/circle7segFPGA/seg7_driver.v
+FC:/Users/edu/circle7segFPGA/seg7_driver.v
+!i122 147
+L0 1 28
+R4
+r1
+!s85 0
+31
+Z9 !s108 1743087557.000000
+!s107 C:/Users/edu/circle7segFPGA/seg7_driver.v|
+!s90 -reportprogress|300|-work|work|C:/Users/edu/circle7segFPGA/seg7_driver.v|
+!i113 1
+R6
+R7
+vtb
+R8
+!i10b 1
+!s100 [SEDVlkLBmUY^oDM]zQIc0
+R1
+IooBSc@n7A5anNTgH5[Ned2
+R2
+R3
+w1743087092
+8C:/Users/edu/circle7segFPGA/tb.v
+FC:/Users/edu/circle7segFPGA/tb.v
+!i122 148
+L0 2 68
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/edu/circle7segFPGA/tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/edu/circle7segFPGA/tb.v|
+!i113 1
+R6
+R7
