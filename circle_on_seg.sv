@@ -1,4 +1,8 @@
-module circle_on_seg(
+module circle_on_seg #
+(
+    parameter led_logic = 0
+)
+(
     input row,
     input enable,
     output reg [7:0] seg_display
@@ -18,6 +22,8 @@ always @* begin
     end else begin
         seg_display = OFF;
     end
+    if (led_logic)
+        seg_display = ~seg_display;
 end
 
 endmodule

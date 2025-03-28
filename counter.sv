@@ -5,9 +5,10 @@ module counter #(
 (
 	input clk_i,
 	input rst_ni,
-	output reg [WIDTH - 1 : 0] count_o,
 	output reg overflow_o
 );
+
+reg [WIDTH - 1 : 0] count_o;
 
 always @(posedge clk_i or negedge rst_ni) begin
 	if(~rst_ni) begin
@@ -15,7 +16,7 @@ always @(posedge clk_i or negedge rst_ni) begin
 		overflow_o <= 1'b0;
 	end
 	else begin
-		count_o <= count_o + 7'b1;
+		count_o <= count_o + 'b1;
 		if (count_o == {WIDTH{1'b1}} - 1) begin
 			overflow_o <= 1'b1;
 		end
