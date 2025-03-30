@@ -26,3 +26,6 @@ The clock divider generates a slower signal named overflow than the board's cloc
 | *behavior of seg7 (displays 1-5) (sadly couldn't capture on screen all displays)* |
 
 # License
+
+This project is licensed under the MIT License
+Copyright (c) 2025 Eduard Mihaiu
