@@ -1,4 +1,4 @@
-module counter #(
+module clock_div #(
 	parameter WIDTH = 7,
 	parameter COUNT_TO = 'd100
 )

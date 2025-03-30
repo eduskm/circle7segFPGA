@@ -7,9 +7,6 @@ localparam led_logic = 1;
 reg clk;
 reg rst_n;
 wire ovfl;
-wire row;
-wire directie;
-wire [2:0] curr_display;
 wire [5 : 0] [7 : 0] seg7;
 	
 initial begin
@@ -21,11 +18,11 @@ end
 
 always #1 clk = ~clk;
 
-counter #(
+clock_div #(
 	.WIDTH (WIDTH),
 	.COUNT_TO ()
 )
-counterinst (
+clock_div_inst (
 	.clk_i (clk   ),
 	.rst_ni(rst_n),
 	.overflow_o(ovfl)
@@ -41,10 +38,7 @@ walking_circle_inst
 	.clk_i(clk),
 	.rst_ni(rst_n),
 	.overflow_i(ovfl),
-	.directie(directie),
-	.row(row),
-	.curr_display(curr_display),
-	.seg7(seg7)
+	.seg7_o(seg7)
 );
 
 endmodule
