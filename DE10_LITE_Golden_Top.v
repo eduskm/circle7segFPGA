@@ -133,11 +133,15 @@ wire ovfl;
 //  Structural coding
 //=======================================================
 
-localparam WIDTH = 16;
+localparam FREQ = 50000000;
+localparam DREAPTA_LA_STANGA = 1;
+localparam STANGA_LA_DREAPTA = 0;
+localparam RAND_SUS = 1;
+localparam RAND_JOS = 0;
 
 clock_div #(
-	.WIDTH (WIDTH),
-	.COUNT_TO ()
+	.WIDTH (),
+	.FREQ (FREQ)
 )
 clock_div_inst (
 	.clk_i (MAX10_CLK1_50),
@@ -147,7 +151,9 @@ clock_div_inst (
 
 walking_circle #(
 	.NUM_OF_DISPLAYS (),
-	.COL_WIDTH ()
+	.COL_WIDTH (),
+	.ROW (RAND_SUS),
+	.DIRECTION (DREAPTA_LA_STANGA)
 
 )
 walking_circle_inst

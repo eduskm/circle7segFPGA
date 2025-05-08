@@ -1,6 +1,6 @@
 module circle_on_seg #
 (
-    parameter led_logic = 0
+    parameter led_logic = 1
 )
 (
     input row_i,
@@ -11,6 +11,12 @@ module circle_on_seg #
 localparam HIGH_CIRCLE = 8'b0_1100011;
 localparam LOW_CIRCLE  = 8'b0_1011100;
 localparam OFF = 8'b0_0000000;
+
+//localparam HIGH_CIRCLE = 8'b1_0011100;
+//localparam LOW_CIRCLE  = 8'b1_0100011;
+//localparam OFF = 8'b1_1111111;
+
+
 
 always @* begin
     if (enable_i) begin

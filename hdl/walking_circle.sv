@@ -1,6 +1,8 @@
 module walking_circle #(
 	parameter NUM_OF_DISPLAYS = 6,
-	parameter COL_WIDTH = $clog2(NUM_OF_DISPLAYS)
+	parameter COL_WIDTH = $clog2(NUM_OF_DISPLAYS),
+	parameter ROW = 0,
+	parameter DIRECTION = 0
 )
 (
 	input clk_i,
@@ -17,8 +19,8 @@ reg [NUM_OF_DISPLAYS - 1 : 0] col_en;
 always @(posedge clk_i or negedge rst_ni) begin
 	if (~rst_ni) begin
 		curr_display <= 'b0;
-		row <= 'b1;
-		directie <= 'b0;
+		row <= ROW;
+		directie <= DIRECTION;
 	end
 	else if (overflow_i) begin
 		if(curr_display == 5 && directie) begin
@@ -41,7 +43,7 @@ generate
     for (i = 0; i < NUM_OF_DISPLAYS; i=i+1) begin: seg7_for // instantiem 6 displayuri
         circle_on_seg #
 		(
-			.led_logic()
+			.led_logic(1)
 		) circle_on_seg_inst (
             .row_i(row),
             .enable_i(col_en[i]),

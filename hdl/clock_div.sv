@@ -1,6 +1,6 @@
 module clock_div #(
-	parameter WIDTH = 7,
-	parameter COUNT_TO = 'd100
+	parameter WIDTH = $clog2(FREQ),
+	parameter FREQ = 'd50_000_000
 )
 (
 	input clk_i,
@@ -25,7 +25,5 @@ always @(posedge clk_i or negedge rst_ni) begin
 		end
 	end 
 end
-
-
 
 endmodule

@@ -30,7 +30,9 @@ clock_div_inst (
 
 walking_circle #(
 	.NUM_OF_DISPLAYS (),
-	.COL_WIDTH ()
+	.COL_WIDTH (),
+        .ROW (0),
+	.DIRECTION (1)
 
 )
 walking_circle_inst
